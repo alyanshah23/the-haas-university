@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(6, 6, 59);
+}
+
+.bg-blue {
+    background-color: rgb(5, 5, 53);
+}
+
+.image {
+    background-image: url(./images/rut-miit-mPaKMvE3sHg-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+
+}
+
+#fontsizeh1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.mrl {
+    margin-left: 60%;
+    border-radius: 50%;
+}
+
+.forbg {
+    background-color: rgba(0, 0, 255, 0.365);
+}
+
+#uni {
+    color: white;
+    font-size: 50px;
+}
+
+.forbg2 {
+    background-color: rgba(16, 28, 80, 0.91);
+    height: 94%;
+    width: 100%;
+
+}
+
+#redbtn {
+    background-color: red;
+    color: yellow;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+#bns {
+    font-size: 20px;
+    font-weight: bolder
+}
+
+#rtl {
+    margin-left: 50px;
+}
+.bg-blue-chng{
+    background-color: rgba(14, 14, 77, 0.829);
+    border: 1px solid white;
+}
+.bg-blue-chng-2{
+    background-color: rgba(4, 4, 108, 0.472);
+}
+.bg-blue-chng-3{
+    background-color: rgba(0, 0, 0, 0.185);
+}
