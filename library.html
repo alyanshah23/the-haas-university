@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(6, 6, 59);
+}
+
+.bg-blue {
+    background-color: rgb(5, 5, 53);
+}
+
+.navhover a:hover {
+    background-color: rgba(16, 28, 80, 0.91);
+    padding: 10px;
+    color: goldenrod !important;
+}
+
+.image {
+    height: 80vh;
+    width: 98%;
+    background:
+        linear-gradient(rgba(0, 0, 255, 0.365), rgba(0, 0, 255, 0.365)),
+        url('./images/rut-miit-mPaKMvE3sHg-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#fontsizeh1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.mrl {
+    margin-left: 60%;
+    border-radius: 50%;
+}
+
+#uni {
+    color: white;
+    font-size: 50px;
+}
+
+.forbg2 {
+    background-color: rgba(16, 28, 80, 0.91);
+    height: 94%;
+    width: 100%;
+
+}
+
+#redbtn {
+    background-color: red;
+    color: yellow;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+#redbtn:hover {
+    color: black !important;
+    background-color: antiquewhite;
+}
+
+.cardbtnhover:hover {
+    color: black !important;
+    background-color: antiquewhite;
+}
+
+#rtl {
+    margin-left: 50px;
+}
+
+.bg-blue-chng {
+    background-color: rgba(14, 14, 77, 0.829);
+    border: 1px solid white;
+}
+
+.bg-blue-chng-2 {
+    background-color: rgba(4, 4, 108, 0.472);
+}
+
+.bg-blue-chng-3 {
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+.frslide {
+    background-color: rgba(0, 0, 0, 0.611);
+    margin-bottom: 18%;
+}
+
+.image2 {
+    width: 98%;
+    height: 95%;
+    background:
+        linear-gradient(rgba(5, 117, 137, 0.6), rgba(4, 98, 110, 0.6)),
+        url('./images/ousa-chea-gKUC4TMhOiY-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image3 {
+    width: 98%;
+    height: 135vh;
+    background:
+        linear-gradient(rgba(7, 125, 160, 0.858), rgba(8, 134, 153, 0.875)),
+        url('./images/nils-lindner-2fPT0OpMvRY-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.icon-white {
+    filter: brightness(0) invert(1);
+}
+
+li ul a:hover {
+    color: goldenrod !important;
+    background-color: rgba(4, 4, 108, 0.472);
+    padding: 10px;
+}
+ 
+#leftmar {
+    margin-left: 200px;
+}
+
+.firstani {
+    transition: all 0.8 linear;
+}
+
+.firstani:hover {
+    transform: translateY(0);
+    transform: translateY(-20px);
+}
+
+.image4 {
+    width: 98%;
+    height: 80vh;
+    background:
+        linear-gradient(rgba(7, 124, 160, 0.544), rgba(8, 134, 153, 0.43)),
+        url('./images/vitaly-gariev-NQZQ25ELdk0-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.whitehover:hover {
+    color: black !important;
+    background-color: antiquewhite !important;
+}
+
+#pub{
+    background-color: rgba(165, 42, 42, 0.103);
+    position: relative;
+    bottom: 1920px;
+    text-transform: capitalize;
+    color: #3b39a5;
+}
+  </style>
+</head>
+
+<body><body>
+    <div class="container-fluid sticky-top  p-0 m-0 navhover" style="width: 99%;">
+        <div class="container-fluid w-100% p-0 m-0">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar   navbar-dark bg-blue">
+                        <div class="container-fluid justify-content-end">                  
+
+
+                            <div class="navbar-nav ">
+                                <ul class="navbar-nav  ms-auto  flex-row ">
+                                    <li class="nav-item mx-3">
+                                        <a class="nav-link active text-light" aria-current="page" href="#">Events</a>
+                                    </li>
+                                    <li class="nav-item mx-3">
+                                        <a class="nav-link active text-light" aria-current="page" href="#">News</a>
+                                    </li>
+                                    <li class="nav-item mx-3">
+                                        <a class="nav-link active text-light" aria-current="page" href="./Campusmap.html">Campus
+                                            Map</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link active text-light" aria-current="page" href="#">FAQs</a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid w-100% p-0 m-0 ">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar  navbar-expand-lg navbar-light bg-blue">
+                        <div class="container-fluid">
+                            <img src="download.png" style="width: 6%; border-radius: 50%  ;" alt="">
+                            <button class="navbar-toggler bg-secondary " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
+                                    <li class="nav-item  mx-2 fs-5">
+                                        <a class="nav-link text-light active" aria-current="page" href="./Home.html">Home</a>
+                                    </li>
+                                    <li class="nav-item mx-2 fs-5 ">
+                                        <a class="nav-link text-light active" aria-current="page" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item  mx-2 fs-5">
+                                        <a class="nav-link text-light active" aria-current="page" href="#">Programs</a>
+                                    </li>
+                                    <li class="nav-item mx-2 fs-5 ">
+                                        <a class="nav-link active text-light" aria-current="page" href="#">Faculty</a>
+                                    </li>
+                                    <li class="nav-item   fs-5">
+                                        <a class="nav-link active text-light" aria-current="page" href="#">Contect
+                                            Us</a>
+                                    </li>
+
+
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <img src="https://www.mili.edu.af/blogs/elements/post_image/2024-12-23-15-19-3722.jpg" class="img-fluid  "
+          style="height: 400px; width: 100%;" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="container " style="background-color: rgb(54, 27, 78);">'
+    <div class="row bg-drak">
+      <div class="col-4 d-flex flex-colunm flex-wrap">
+        <div class="card" style="width: 15rem;">
+       
+            <img
+            src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfbtSxx8Et9BYKZJurZ9Ipj7NC9ESmhABs_IYcWmYxVhO_HqIG"
+            class="image-fluid card-img-top" alt="...">
+          <div class="card-body " style="background-color: rgb(34, 21, 46);">
+            <h5 class="card-title text-center fw-bold text-success p-2">Atomic Habits</h5>
+            <p class="card-text justify-content-center text-center p-2 text-primary fw-bold ">Atomic Habits: An Easy &
+              Proven Way to Build Good Habits & Break Bad Ones is a 2018 self-help book by James Clear, a researcher of
+              habit formation.s
+              content.</p>
+            <a href="https://en.wikipedia.org/wiki/Atomic_Habits"
+              class="btn btn-primary border-radius-5 justify-content-center align-items-center">More Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 d-flex flex-colunm flex-wrap">
+        <div class="card" style="width: 18rem;">
+          <img src="https://m.media-amazon.com/images/I/71ObMh3CsjL._SY342_.jpg" class="image-fluid card-img-top"
+            alt="...">
+          <div class="card-body pb-2" style="background-color: rgb(34, 21, 46);">
+            <h5 class="card-title justify-content-center text-center pb-5 text-success fw-bold">Developing Critical</h5>
+            <p class="card-text text-primary text-center pb-2">The fun, hands-on physical science lessons/experiments in this
+              168-page book teach
+              science principles found in state and national science standards. Students also learn and practice
+              critical thinking through the application of the scientific method of investigation.
+        </p>
+            <a href="https://www.amazon.com/Developing-Critical-Thinking-Through-Science/dp/0894554247"
+              class="btn btn-primary border-radius-5 justify-content align-items-center text-center">More Details</a>
+          </div> 
+        </div>
+      </div>
+      <div class="col-4 d-flex flex-colunm flex-wrap">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR0hW7gQ3RHOL9-5mjHTNGIbf6RgxEU_xPAhTbafRuNH33y6bcy"
+            class="image-fluid card-img-top" alt="...">
+          <div class="card-body" style="background-color: rgb(34, 21, 46);">
+            <h5 class="card-title justify-content-center text-center pb-5 text-success fw-bold">Code Complete</h5>
+            <p class="card-text text-center text-primary pb-2">Widely considered one of the best practical guides to programming, Steve McConnell’s
+              original CODE COMPLETE has been helping developers write better software for more than a decade. Now this
+              classic book has been fully updated and revised with leading-edge practices
+              </p>
+            <a href="https://books.google.com.pk/books/about/Code_Complete.html?id=LpVCAwAAQBAJ&source=kp_cover&redir_esc=y" class="More Details border-radius-5">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container-fluid mt-3 image3 ">
+        <div class="row">
+            <div class="col">
+                <div class="container mt-5 mb-5 p-5">
+                    <div class="row text-center">
+                        <div class="col-6 ">
+                           
+
+                 <div style="width: 1100%;height: 5px; background-color: aqua;position: relative; right: 140px;"></div>
+        </div>
+        <div class="row border-bottom mt-5">
+            <div class="col-3">
+                <li>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./Home.html">Home</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">About</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">Courses</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">Faculty</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">Admissions</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">Admissions form</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">Library</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">Research</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">Gallery</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">News</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">Faqs</a></ul>
+
+                </li>
+
+            </div>
+            <div class="col-3 ">
+                <li>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./testimonials.html">Testimonials</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./Alumni.html">Alumni</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">Student LIfe</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="#">Hostel And Facilities</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./Campusmap.html">Campus Map</a></ul>
+                </li>
+
+            </div>
+            <div class="col-3 ">
+                <h2 class="text-light mb-2">HAAS UAN</h2>
+                <img src="/icons/telephone.svg" class="icon-white" alt="" width="10%"><a
+                    class="text-light text-decoration-none " href="">+92-51-111-11-0000</a>
+                <h2 class="text-light fw-bold mt-5 mb-2">Address</h2>
+                <p class="text-light">National University of Sciences & Technology (HAAS) Campus, Sector H-12,
+                    Islamabad, Pakistan</p>
+            </div>
+            <div class="col-3">
+                <h2 class="text-light fw-bold">Lost? Map’s Here.</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7134742.610011334!2d64.73579939680585!3d29.17171320694345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df9675aaaaaaab%3A0xc5180922c44eb86b!2sNational%20University%20of%20Sciences%20%26%20Technology!5e0!3m2!1sen!2s!4v1762632294155!5m2!1sen!2s"
+                    width="270" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 mt-4 ">
+                <p class="text-light" id="leftmar">© 2025 HAAS University of Sciences and Technology. All Rights
+                    Reserved</p>
+            </div>
+            <div class="col-4 text-end mt-4 ">
+                <img src="./icons/whatsapp (1).svg" class="icon-white m-1" width="4%" alt=""><img
+                    src="./icons/instagram.svg" class="icon-white m-1" width="4%" alt=""><img src="./icons/facebook.svg"
+                    class="icon-white m-1" width="4%" alt=""><img src="./icons/threads.svg" class="icon-white m-1"
+                    width="4%" alt=""><img src="./icons/linkedin.svg" class="icon-white m-1" width="4%" alt="">
+            </div>
+        </div>
+
+<h1 id="pub">public library</h1>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
