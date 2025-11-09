@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(6, 6, 59);
+    
+}
+
+.bg-blue {
+    background-color: rgb(5, 5, 53);
+}
+            /* navbar seetind end */
+
+
+
+/* hostel imgage setting */
+
+
+.img {
+    height: 400px;
+}
+h1 {
+    text-transform: capitalize;
+    color: forestgreen;
+}
+.img2 {
+  border-image: 2px;
+  border-radius: 20px;
+  width: 500px;
+  height: 300px;
+}
+li {
+    /* background-color:aliceblue; */
+    position: relative;
+    /* right: 20px; */
+    border-radius: 5px;
+    
+}
+
+/* hostel  */
+
+ol{
+    
+    list-style: none;
+}
+}
+.h5{
+    color: forestgreen;
+    
+} 
+.div2 {
+    position: relative;
+    left: 600px;
+    bottom: 680px;
+    border-style: none ;
+}
+.div3 {
+}
