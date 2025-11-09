@@ -13,12 +13,21 @@ body {
     background-color: rgb(5, 5, 53);
 }
 
+.navhover a:hover {
+    background-color: rgba(16, 28, 80, 0.91);
+    padding: 10px;
+    color: goldenrod !important;
+}
+
 .image {
-    background-image: url(./images/rut-miit-mPaKMvE3sHg-unsplash.jpg);
+    height: 80vh;
+    width: 98%;
+    background:
+        linear-gradient(rgba(0, 0, 255, 0.365), rgba(0, 0, 255, 0.365)),
+        url('./images/rut-miit-mPaKMvE3sHg-unsplash.jpg');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 75vh;
+    background-attachment: fixed;
 
 }
 
@@ -32,10 +41,6 @@ body {
 .mrl {
     margin-left: 60%;
     border-radius: 50%;
-}
-
-.forbg {
-    background-color: rgba(0, 0, 255, 0.365);
 }
 
 #uni {
@@ -59,21 +64,99 @@ body {
     text-decoration: none;
 }
 
-#bns {
-    font-size: 20px;
-    font-weight: bolder
+#redbtn:hover {
+    color: black !important;
+    background-color: antiquewhite;
+}
+
+.cardbtnhover:hover {
+    color: black !important;
+    background-color: antiquewhite;
 }
 
 #rtl {
     margin-left: 50px;
 }
-.bg-blue-chng{
+
+.bg-blue-chng {
     background-color: rgba(14, 14, 77, 0.829);
     border: 1px solid white;
 }
-.bg-blue-chng-2{
+
+.bg-blue-chng-2 {
     background-color: rgba(4, 4, 108, 0.472);
 }
-.bg-blue-chng-3{
+
+.bg-blue-chng-3 {
     background-color: rgba(0, 0, 0, 0.185);
+}
+
+.frslide {
+    background-color: rgba(0, 0, 0, 0.611);
+    margin-bottom: 18%;
+}
+
+.image2 {
+    width: 98%;
+    height: 95%;
+    background:
+        linear-gradient(rgba(5, 117, 137, 0.6), rgba(4, 98, 110, 0.6)),
+        url('./images/ousa-chea-gKUC4TMhOiY-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image3 {
+    width: 98%;
+    height: 135vh;
+    background:
+        linear-gradient(rgba(7, 125, 160, 0.858), rgba(8, 134, 153, 0.875)),
+        url('./images/nils-lindner-2fPT0OpMvRY-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.icon-white {
+    filter: brightness(0) invert(1);
+}
+
+li ul a:hover {
+    color: goldenrod !important;
+    background-color: rgba(4, 4, 108, 0.472);
+    padding: 10px;
+}
+
+#leftmar {
+    margin-left: 200px;
+}
+
+.firstani {
+    transition: all 0.8 linear;
+}
+
+.firstani:hover {
+    transform: translateY(0);
+    transform: translateY(-20px);
+}
+
+.image4 {
+    width: 98%;
+    height: 80vh;
+    background:
+        linear-gradient(rgba(7, 124, 160, 0.544), rgba(8, 134, 153, 0.43)),
+        url('./images/vitaly-gariev-NQZQ25ELdk0-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.whitehover:hover {
+    color: black !important;
+    background-color: antiquewhite !important;
+}
+
+.foothover:hover {
+    color: yellow !important;
 }
