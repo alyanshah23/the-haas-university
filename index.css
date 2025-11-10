@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(6, 6, 59);
+}
+
+.bg-blue {
+    background-color: rgb(5, 5, 53);
+}
+
+.navhover a:hover {
+    background-color: rgba(16, 28, 80, 0.91);
+    padding: 10px;
+    color: goldenrod !important;
+}
+
+.research {
+    text-align: center;
+    color: white;
+
+}
+
+.reser {
+    color: white;
+}
+
+.reserc {
+    color: white;
+}
+
+.re {
+    color: white;
+    text-align: start;
+}
+
+.rec {
+    color: white;
+}
+
+.res {
+    color: white;
+}
+
+.rer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.rch {
+    color: white;
+    background-color: cornflowerblue;
+
+}
+
+.rhc {
+    color: white;
+}
+
+.you{
+    color: white;
+    text-align: center;
+    justify-content: center;
+
+}
+.image3 {
+    width: 98%;
+    height: 190vh;
+    background:
+        linear-gradient(rgba(7, 125, 160, 0.858), rgba(8, 134, 153, 0.875)),
+        url('./images/nils-lindner-2fPT0OpMvRY-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.icon-white {
+    filter: brightness(0) invert(1);
+}
+
+li ul a:hover {
+    color: goldenrod !important;
+    background-color: rgba(4, 4, 108, 0.472);
+    padding: 10px;
+}
+
+#leftmar {
+    margin-left: 200px;
+}
