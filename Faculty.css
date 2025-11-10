@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(5, 5, 53);
+}
+
+.bg-blue {
+    background-color: rgb(5, 5, 53);
+}
+
+.image {
+    background-image: url(./images/rut-miit-mPaKMvE3sHg-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+
+}
+
+#fontsizeh1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.mrl {
+    margin-left: 60%;
+    border-radius: 50%;
+}
+
+.forbg {
+    background-color: rgba(0, 0, 255, 0.365);
+}
+
+#uni {
+    color: white;
+    font-size: 55px;
+}
+
+#uni1 {
+    color: white;
+    font-size: 35px;
+}
+
+.head {
+    color: white;
+
+}
+
+.head3 {
+    color: white;
+}
+
+.image3 {
+    width: 98%;
+    height: 135vh;
+    background:
+        linear-gradient(rgba(7, 125, 160, 0.858), rgba(8, 134, 153, 0.875)),
+        url('./images/nils-lindner-2fPT0OpMvRY-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.icon-white {
+    filter: brightness(0) invert(1);
+}
+
+li ul a:hover {
+    color: goldenrod !important;
+    background-color: rgba(4, 4, 108, 0.472);
+    padding: 10px;
+}
+
+#leftmar {
+    margin-left: 200px;
+}
